@@ -36,7 +36,7 @@
                 <tbody id="expense-list"></tbody>
             </table>
             <div class="total-amount">
-                <strong>Total:</strong> $<span id="total-amount">0</span>
+                <strong style="color: green;">Total</strong>: ₹<span id="total-amount">0</span>
             </div>
         </div>
         <div class="filter">
@@ -126,8 +126,8 @@
                 <td>${expense.category}</td>
                 <td>${expense.date}</td>
                 <td>
-                    <button class="edit-btn" data-id="${expense.id}">Edit</button>
-                    <button class="delete-btn" data-id="${expense.id}">Delete</button>
+                    <button class="edit-btn" style="border:solid blue color:blue " data-id="${expense.id}">Edit</button>
+                    <button class="delete-btn" style="border:solid red color:red" data-id="${expense.id}">Delete</button>
                 </td>
             `;
 

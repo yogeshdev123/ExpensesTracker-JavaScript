@@ -204,3 +204,11 @@ form button:hover {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.delete-btn{
+    color: red;
+    border: solid red;
+}
+.edit-btn{
+    color: blue;
+    border: solid blue;
+}
